@@ -9,3 +9,5 @@ The current prototype have a working edit page, start page where you can select 
 
 # Additional Note
  Some of the Javascript is learned through Youtube Videos
+ I don't remember all of them but
+ the resize Javascripst was taken from CodingNepal youtube tutorial
