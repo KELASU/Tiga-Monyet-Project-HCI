@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mali', cursive;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #222;
+}
+.heading{
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.big-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px 0;
+    gap: 60px;
+}
+.container{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 0 20px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.icon{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    background: #2e2e2e;
+    transition: 0.5s ease-in-out;
+}
+
+.one{
+    color: red;
+    box-shadow: 0 0 0 4px #2e2e2e, 0 0 0 6px red;
+}
+.two{
+    color: green;
+    box-shadow: 0 0 0 4px #2e2e2e, 0 0 0 6px green;
+}
+.three{
+    color: blue;
+    box-shadow: 0 0 0 4px #2e2e2e, 0 0 0 6px blue;
+}
+
+.container:hover .one{
+    background: red;
+    color: #2e2e2e;
+    box-shadow: 0 0 0 4px #2e2e2e, 0 0 0 200px red;
+}
+.container:hover .two{
+    background: green;
+    color: #2e2e2e;
+    box-shadow: 0 0 0 4px #2e2e2e, 0 0 0 200px green;
+}
+.container:hover .three{
+    background: blue;
+    color: #2e2e2e;
+    box-shadow: 0 0 0 4px #2e2e2e, 0 0 0 200px blue;
+}
+.text-content h2{
+    font-size: 1.5em;
+    color: white;   
+    font-weight: 500;
+}
+.container:hover .text-content h2{
+    color: black;   
+}
+.text-content p{
+    color: grey;
+    transition: 0.5s ease-in-out;
+}
+.container:hover .text-content p{
+    color: black;   
+}
+
+.text-content .oneone a{
+    position: relative;
+    color: #2e2e2e;
+    padding: 8px 15px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    background-color: red;
+    transition: 0.5s ease-in-out;
+}
+
+.container:hover .oneone a{
+    background-color: #2e2e2e;
+    color: red;
+}
+
+.text-content .twotwo a{
+    position: relative;
+    color: #2e2e2e;
+    padding: 8px 15px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    background-color: green;
+    transition: 0.5s ease-in-out;
+}
+
+.container:hover .twotwo a{
+    background-color: #2e2e2e;
+    color: green;
+}
+.text-content .threethree a{
+    position: relative;
+    color: #2e2e2e;
+    padding: 8px 15px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    background-color: blue;
+    transition: 0.5s ease-in-out;
+}
+
+.container:hover .threethree a{
+    background-color: #2e2e2e;
+    color: blue;
+}
+.home button{
+    position: absolute;
+    top:3%;
+    left: 0;
+    transform: translateY(-50%);
+    align-content: center;
+}
+#home{
+    height: 20px;
+    width: 20px;
+    margin: 0%;
+    padding: 0 0;
+}

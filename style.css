@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Image/Enc.png);
+    background-image: linear-gradient(rgb(249,116,50,0.7),#ff7000),url(Image/background1.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -41,7 +41,7 @@ nav-links{
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: #9b4a97ff;
     display: block;
     margin: auto;
     transition: 0.8s;
@@ -67,17 +67,198 @@ nav-links{
     color: #fff;
 }
 .btn-start{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    font-size: 20px;
+    position:relative;
+    padding: 12px 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     background: transparent;
-    position: relative;
-    cursor: pointer;
+    margin: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s;
 }
 .btn-start:hover{
-    border: 1px solid #ff6c09;
-    background: #ff6c09;
-    transition: 1s;
+   background-color:rgb(223, 255, 205);
+   color: rgb(18, 18, 18);
+   text-decoration: none;
+   font-size: 20px;
+   box-shadow: 0 0 30px rgb(223, 255, 205);
+   box-shadow: 0 0 60px rgb(223, 255, 205);
+   box-shadow: 0 0 100px rgb(223, 255, 205);
+
+}
+
+nav .fa{
+    display: none;
+}
+
+@media (max-width:700px){
+    .text-box h1{
+        font-size: 100;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links {
+        position: absolute;
+        background: #542bf7;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links ul {
+        padding: 10px;
+    }
+}
+
+
+.text-box h1:hover{
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #fff;
+    color: transparent;
+}
+
+.about{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    background:#ff7000;
+    background-position: center;
+    white-space: 0;
+}
+.about h1{
+    padding-top: 30px;
+    color: whitesmoke;
+    font-size: 40px;
+    margin: 10px;
+    line-height: 10px;
+    white-space: 10px;
+}
+.about img{
+    padding-top: 10px;
+    margin: auto;
+    height: 400px;
+    width: auto;
+    border: 0;
+}
+.about p{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+}
+
+.hide{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(-100%);
+    filter: blur(5px);
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.containerteam{
+    text-align: center;
+    background: linear-gradient(#ff7000,#a42828);
+}
+
+.headteam{
+    padding-top: 60px;
+    color: whitesmoke;
+    font-size: 20px;
+    margin: auto;
+    line-height: 50px;
+}
+
+.containerteam2{
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teams img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 50%;
+    border: solid 5px #fff;
+    justify-content: center;
+    box-shadow: 16px 14px 20px whitesmoke;
+    position: relative;
+}
+
+.teams{
+    margin: 10px;
+    padding: 22px;
+    width: 30%;
+    cursor: pointer;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+.teams:hover{
+    background-color: #ff7000;
+    border-radius: 12px;
+    transform: scale(1.1);
+}
+.nameteam{
+    padding: 12px;
+    font-weight: bolder;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: antiquewhite;
+}
+.nimstud{
+    font-style: italic;
+    font-weight: bold;
+    color: #fc766aff;
+}
+.pepequote{
+    margin: 20px 0;
+    font-weight: normal;
+    color: white;
+}
+
+.socials{
+    margin: 14px;
+}
+.socials a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    transition: .4s;
+}
+.socials a i{
+    color: #000000;
+}
+.socials:hover{
+    transform: scale(1.5);
+}
+
+@media screen and (max-width: 700px) {
+    .teams{
+        max-width: 100%;
+    }
 }

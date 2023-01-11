@@ -5,10 +5,13 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <meta name="viewport" content="with=device-width, initial-scale=1.0">
         <title>
             Welcome to C.E.R Auto
         </title>
+
 
     </head>
 
@@ -16,20 +19,72 @@
         <section class="header">
             <nav>
                 <a href="index.html"><img src="Image/C.E.R-AUTO-Logo.png"></a>
-                <div class="nav-links">
+                <div class="nav-links" id="menuss">
+                    <i class="fa fa-times" id="close"></i>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html">About</a></li>
-                        <li><a href="index.html">Meet The Team</a></li>
-                        <li><a href="index.html">Get Started</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#team">Meet The Team</a></li>
+                        <li><a href="start/start.html">Get Started</a></li>
                     </ul>
                 </div>
+                <i class="fa fa-bars" id="menus"></i>
             </nav>
             <div class="text-box">
                 <h1>C.E.R AUTO</h1>
                 <p>HELPS YOU PICTURE YOURSELF EASIER</p>
-                <a href="" class="btn-start">Start Editing Now</a>
+                <a href="start/start.html" class="btn-start">Start Editing Now</a>
             </div>
         </section>
+        <section class="about" id="about">
+            <h1>
+                About Us
+            </h1>
+            <img src="image/Tiga Monyet-logos_white.png" alt="">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae vulputate lectus. Fusce ut interdum purus. Quisque ex nibh, venenatis eu sagittis non, aliquet eu justo. Vivamus ac luctus purus. Praesent sit amet ante lacus. Integer augue nisl, luctus eget tristique in, porta nec nunc. Quisque consectetur eros imperdiet, interdum dui quis, fermentum sem. Nullam laoreet dui nisi, ut pretium massa malesuada eget. Phasellus at orci mauris. Vestibulum porta metus eget consequat volutpat. Integer luctus facilisis augue, eget molestie massa. Integer nec lobortis augue. Vestibulum bibendum lectus eu lacus porttitor, non pulvinar turpis gravida.
+            </p>
+            <p>
+                Maecenas fringilla dolor a dui elementum fringilla. Pellentesque elementum, arcu ut lacinia dapibus, augue lorem gravida tellus, sit amet tincidunt eros ante in orci. Aenean mattis quam arcu, sit amet posuere purus lacinia eu. Nam fermentum ultricies sapien ac porttitor. Ut ornare rutrum tortor non ultrices. Phasellus elit diam, sollicitudin id feugiat eu, maximus non tortor. Praesent id lorem consequat, condimentum lacus ac, finibus libero. Pellentesque convallis luctus scelerisque. Curabitur iaculis nunc et nunc fermentum fringilla. In volutpat nisl et metus pulvinar posuere. Suspendisse eleifend, odio quis rutrum ullamcorper, mauris mi tincidunt nisl, venenatis commodo ex diam sit amet nunc. Proin egestas eu ante in elementum. Suspendisse ac elementum arcu. Fusce eu ex euismod, elementum lorem sed, maximus velit.
+            </p>
+        </section>
+        <section class="team" id="team">
+            <div class="containerteam">
+                <div class="headteam hide">
+                    <h1>Meet The Team</h1>
+                </div>
+                <div class="containerteam2">
+                    <div class="teams hide">
+                        <img src="" alt="">
+                        <div class="nameteam">Justin</div>
+                        <div class="nimstud">2602180456</div>
+                        <div class="pepequote">yes</div>
+                        <div class="socials">
+                            <a href="https://github.com/KELASU" alt=""><i class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="teams hide">
+                        <img src="Image/kenneth.jpg" alt="">
+                        <div class="nameteam">Kenneth Lay</div>
+                        <div class="nimstud">2602119272</div>
+                        <div class="pepequote">"I'm tired"</div>
+                        <div class="socials">
+                            <a href="https://github.com/KELASU" alt=""><i class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="teams hide">
+                        <img src="Image/bryan.jpg" alt="">
+                        <div class="nameteam">Bryan Sujoso</div>
+                        <div class="nimstud">2602179151</div>
+                        <div class="pepequote">yes</div>
+                        <div class="socials">
+                            <a href="https://github.com/KELASU" alt=""><i class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+        <script src="pagescroll.js"></script>
     </body>
 </html>
