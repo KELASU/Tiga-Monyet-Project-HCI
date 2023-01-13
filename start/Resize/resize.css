@@ -2,25 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mali', cursive;
   }
   body{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #ff7000;
+    background: radial-gradient(rgb(100, 223, 170),rgb(60, 60, 209));
     background-position: center;
     background-size: cover;
     width: 100%;
   }
   .wrapper{
     width: 700px;
-    height: 400px;
     padding: 30px;
-    background: #2e2e2e;
+    background: #ff7000;
     border-radius: 9px;
     transition: height 0.2s ease;
+    box-shadow: 0 0 30px rgb(223, 255, 205);
+    box-shadow: 0 0 60px rgb(223, 255, 205);
+    box-shadow: 0 0 100px rgb(223, 255, 205);
   }
   .wrapper.active{
     height: 537px;
@@ -42,6 +44,11 @@
     font-size: 1.06rem;
     margin-top: 20px;
   }
+  .upload-box img{
+    width: 60%;
+    height: 70%;
+    object-fit: cover;
+  }
   .wrapper.active .upload-box p{
     display: none;
   }
@@ -52,14 +59,7 @@
     border-radius: 5px;
   }
   .wrapper .content{
-    opacity: 0;
     margin-top: 28px;
-    pointer-events: none;
-  }
-  .wrapper.active .content{
-    opacity: 1;
-    pointer-events: auto;
-    transition: opacity 0.5s 0.05s ease;
   }
   .content .row{
     display: flex;

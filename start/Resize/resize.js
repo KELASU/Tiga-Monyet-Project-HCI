@@ -7,14 +7,14 @@ ratioInput = document.querySelector(".ratio input"),
 qualityInput = document.querySelector(".quality input"),
 downloadBtn = document.querySelector(".download-btn");
 let ogImageRatio;
-const loadFile = (e) => {
-    const file = e.target.files[0]; 
+const loadFile = (which) => {
+    const file = which.target.files[0]; 
     if(!file) return; 
     previewImg.src = URL.createObjectURL(file); 
     previewImg.addEventListener("load", () => { 
         widthInput.value = previewImg.naturalWidth;
         heightInput.value = previewImg.naturalHeight;
-        ogImageRatio = previewImg.naturalWidth / previewImg.naturalHeight;
+        ogImageRatio = widthInput.value / heightInput.value;
         document.querySelector(".wrapper").classList.add("active");
     });
 }
