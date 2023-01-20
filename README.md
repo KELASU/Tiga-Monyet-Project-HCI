@@ -1,7 +1,14 @@
-# Tiga-Monyet-Project-HCI
-# Kenneth Lay - 2602119272
-# Bryan Sujoso - 2602179151
-# Justin Christoforo Djauhari - 2602180456
+# <img src="/Image/C.E.R-AUTO-Logo.png" width ="200" >
+Links :
+- Live Website : https://kelasu.github.io/Tiga-Monyet-Project-HCI/
+- Video Demo : https://drive.google.com/drive/folders/1-UPmfdCOmQx3kDoVepzMdgEchaH17bKW?usp=sharing
+
+### Team : Tiga monyet
+
+Group Member:
+- Kenneth Lay - 2602119272
+- Bryan Sujoso - 2602179151
+- ~~Justin Christoforo Djauhari - 2602180456~~
 
 
 # Prototype description
@@ -11,3 +18,5 @@ The current prototype have a working edit page, start page where you can select 
  Not all of the codes here are written or developed us, Some of the Javascript is learned through Youtube Videos
  I don't remember all of them but
  the resize Javascripst was taken from CodingNepal youtube tutorial
+ 
+# <img src="/Image/Tiga Monyet-logos_white.png" width="400">
