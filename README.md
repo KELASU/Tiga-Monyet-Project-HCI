@@ -35,9 +35,11 @@ And so we thought why not give them an easier solution, a solution where you jus
 <img src="/Image/Pic/ss3.jpg" >
 <img src="/Image/Pic/ss4.jpg" >
 
-# DISCLAIMER
- Not all of the codes here are written or developed us, Some of the Javascript is learned through Youtube Videos
- I don't remember all of them but
- the resize Javascripst was taken from CodingNepal youtube tutorial
+# DISCLAIMER AND CREDITS
+#### Some of the codes or page is not by us and is from someone elses library or code here is the credit to them:
+#### Image Editor and resize by CodingNepal 
+- Link : https://codingnepalweb.com/demos/image-editor-javascript/
+- Link : https://www.youtube.com/watch?v=YqUUvBpCtfA
+- Link : https://www.youtube.com/watch?v=x8U2MTTEjtI
  
 # <img src="/Image/Tiga Monyet-logos_white.png" >
