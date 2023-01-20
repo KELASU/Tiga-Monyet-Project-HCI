@@ -29,6 +29,11 @@ Well because a Lot of artists nowadays use the internet to find references and a
 
 And so we thought why not give them an easier solution, a solution where you just need to have two things and that is the size of your drawing media and your picture. With these two inputs, it can take the proportion of the drawing media and help crop, edit and resize the image what is desired.
 
+# Screen Shots
+<img src="/Image/Pic/Ss1.jpg" >
+<img src="/Image/Pic/ss2.jpg" >
+<img src="/Image/Pic/ss3.jpg" >
+<img src="/Image/Pic/ss4.jpg" >
 
 # DISCLAIMER
  Not all of the codes here are written or developed us, Some of the Javascript is learned through Youtube Videos
